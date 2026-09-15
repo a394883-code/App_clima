@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Control de acceso")
 
-edad = st.number_imput("Edad:", min_value = 0, value = 18)
+edad = st.number_input("Edad:", min_value = 0, value = 18)
 
 tiene_identificación = st.checkbox("Tiene identificación")
 
